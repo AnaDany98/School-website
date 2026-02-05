@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #1e3d7b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+    background-color: #f1f5f9;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* SECCIONES */
+.avisos, .servicios, .nosotros {
+    padding: 30px 20px;
+}
+
+.avisos h3, .servicios h3, .nosotros h2 {
+    margin-bottom: 15px;
+    color: #1e3d7b;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33% - 10px);
+    background-color: #f9fafb;
+}
+
+/* BOTONES AVISO */
+.botones-aviso a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #1e3d7b;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1e3d7b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
